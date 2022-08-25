@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	font-family: "Montserrat", sans-serif;
+	background-color: #3f6326;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+
+.bodyBlue {
+background-color: #3B9CFF;
+}
+
+
+
+.switchbox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.switchcontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav {
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.switchbutton {
+	position: relative;
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid black;
+	margin-top: 1em;
+	background-color: white;
+}
+
+.switchbuttonblack {
+	background-color: black;
+}
+
+.switchball {
+	position: absolute;
+	top: 7%;
+	left: 3%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-color: black;
+}
+
+.switchballnone {
+	display: none;
+}
+
+.switchballtwo {
+	position: absolute;
+	top: 7%;
+	right: 3%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	border: 2px solid black;
+	background-color: #fff;
+	display: none;
+}
+
+.switchballtwoblock {
+	display: block;
+}
